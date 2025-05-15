@@ -41,7 +41,7 @@ Nobody's logged into it in quote some time, but if an attacker compromised that 
 This is the kind of stuff that hides in plain sight, and what this script is built to help uncover.
 
 
-
+**** Must have Active Directory powershell module on your machine for the script to function. 
 
 
 
