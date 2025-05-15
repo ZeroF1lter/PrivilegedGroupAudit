@@ -1,4 +1,5 @@
-![PriGroupAuditScriptLogo20](https://github.com/user-attachments/assets/f52b29d5-86a5-4007-bc27-979b6bdad3f6)
+![PrivilegedGroupAudit](./PrivilegedGroupAudit-Banner.png)
 
-# PrivilegedGroupAudit
-Recursive PowerShell script to audit privileged AD group membership, flag dormant or disabled accounts, and export clean CSV reports.
+This lightweight PowerShell script maps out membership in built-in privileged AD groups, including all the nested stuff and flags any disabled or inactive accounts still holding elevated access. It pulls last logon timestamps and kicks out a clean .csv for easy auditing.
+
+Built to be fast, clear, and easy to customize. Perfect for regular privilege audits or tightening things up. It works with delegated read access, so no need to be a Domain Admin to run it.
